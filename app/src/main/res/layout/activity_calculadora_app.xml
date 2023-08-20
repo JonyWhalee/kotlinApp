@@ -6,13 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".contendorDeApps.CalculadoraApp">
 
-    <Button
-        android:id="@+id/button"
+    <EditText
+        android:id="@+id/edNumeroUno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calcu proximamente!"
+        android:layout_marginTop="96dp"
+        android:hint="Ingresa un numero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edNumeroDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:hint="Ingresa otro numero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edNumeroUno" />
+
+    <EditText
+        android:id="@+id/edOperador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:hint="Ingresa el operador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edNumeroDos" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOperacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Realizar operacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edOperador"
+        android:background="#a2d2ff"
+        />
+
+    <TextView
+        android:id="@+id/tvMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btnOperacion"
+        app:layout_constraintVertical_bias="0.166">
+
+    </TextView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -42,6 +42,4 @@ class CalculadoraApp : AppCompatActivity() {
             "/" -> a / b
             else -> 0.0
         }
-
-
 }

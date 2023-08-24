@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FirstApp"
         tools:targetApi="31">
         <activity
+            android:name=".contendorDeApps.Par_Impar_Checker"
+            android:exported="false" />
+        <activity
             android:name=".contendorDeApps.CalculadoraApp"
             android:exported="false" />
         <activity

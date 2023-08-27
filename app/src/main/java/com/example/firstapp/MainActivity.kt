@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.firstapp.contendorDeApps.CalculadoraApp
+import com.example.firstapp.contendorDeApps.IMCApp
 import com.example.firstapp.contendorDeApps.Par_Impar_Checker
 import com.example.firstapp.contendorDeApps.saludarApp
 
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
         btnPar_impar_checker.setOnClickListener {
             navigaToPar_Impar_Checker()
         }
+        val btnIMC = findViewById<Button>(R.id.btnIMC)
+        btnIMC.setOnClickListener {
+            navigaToIMCApp()
+        }
+        
     }
 
     fun nagivateToCaculadoraApp() {
@@ -39,6 +45,10 @@ class MainActivity : AppCompatActivity() {
     }
     fun navigaToPar_Impar_Checker(){
         val intent = Intent(this, Par_Impar_Checker::class.java)
+        startActivity(intent)
+    }
+    fun navigaToIMCApp(){
+        val intent = Intent(this, IMCApp::class.java )
         startActivity(intent)
     }
 

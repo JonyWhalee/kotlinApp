@@ -9,12 +9,24 @@
     <color name="color_sec_200">#FF03DAC5</color>
     <color name="color_sec_700">#FF018786</color>
 
+
+    <!-- IMC App-->
     <color name="backgroud_component">#1D1E33</color>
     <color name="backgroud_component_selected">#FF111328</color>
     <color name="backgroud_app">#0E0B20</color>
     <color name="backgroud_button">#EB1555</color>
     <color name="title_text">#FF8D8E98</color>
 
+    <!--TodoApp-->
+    <color name="todo_background_card">#3d5a80</color>
+    <color name="todo_background_disabled">#787878</color>
+    <color name="todo_background_todo_app">#293241</color>
+    <color name="todo_subtitle_text">#959595</color>
+    <color name="todo_accent">#E91E63</color>
+
+    <color name="todo_business_category">#e63946</color>
+    <color name="todo_personal_category">#80ed99</color>
+    <color name="todo_other_category">#f2b5d4</color>
 
 
 </resources>

@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">firstApp</string>
+    <string name="app_name">saca esto</string>
+
+    <!-- IMC app -->
     <string name="male">male</string>
     <string name="female">female</string>
     <string name="height">height</string>
@@ -23,4 +25,9 @@
     <string name="title_obesidad">Obesidad</string>
     <string name="description_obesidad">Estás MUY por encima de lo óptimo para tu peso y altura</string>
 
+    <!-- ToDoApp -->
+
+    <string name="todo_title">Bienvenido</string>
+    <string name="todo_categories">Categorias</string>
+    <string name="todo_tasks">Tareas</string>
 </resources>

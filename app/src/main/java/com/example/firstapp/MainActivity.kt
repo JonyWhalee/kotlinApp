@@ -6,7 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.firstapp.contendorDeApps.CalculadoraApp
-import com.example.firstapp.contendorDeApps.IMCApp
+import com.example.firstapp.contendorDeApps.habitsApp.HabitsApp
+import com.example.firstapp.contendorDeApps.IMCapp.IMCApp
 import com.example.firstapp.contendorDeApps.Par_Impar_Checker
 import com.example.firstapp.contendorDeApps.saludarApp
 
@@ -31,7 +32,16 @@ class MainActivity : AppCompatActivity() {
         btnIMC.setOnClickListener {
             navigaToIMCApp()
         }
+        val btnHabits = findViewById<Button>(R.id.btnHabits)
+        btnHabits.setOnClickListener {
+            navigaToHabits()
+        }
         
+    }
+
+    private fun navigaToHabits() {
+        val intent = Intent(this, HabitsApp::class.java)
+        startActivity(intent)
     }
 
     fun nagivateToCaculadoraApp() {

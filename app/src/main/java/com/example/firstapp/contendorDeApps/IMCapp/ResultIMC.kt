@@ -1,13 +1,13 @@
-package com.example.firstapp.contendorDeApps
+package com.example.firstapp.contendorDeApps.IMCapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import com.example.firstapp.R
-import com.example.firstapp.contendorDeApps.IMCApp.Companion.IMC_KEY
+import com.example.firstapp.contendorDeApps.IMCapp.IMCApp.Companion.IMC_KEY
 
-class resultIMC : AppCompatActivity() {
+class ResultIMC : AppCompatActivity() {
 
     private lateinit var tvResult:TextView
     private lateinit var tvIMC:TextView

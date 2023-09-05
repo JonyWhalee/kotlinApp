@@ -1,4 +1,4 @@
-package com.example.firstapp.contendorDeApps
+package com.example.firstapp.contendorDeApps.IMCapp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -97,7 +97,7 @@ class IMCApp : AppCompatActivity() {
     }
 
     private fun navigateToResult(result: Double) {
-        val intent = Intent(this, resultIMC::class.java )
+        val intent = Intent(this, ResultIMC::class.java )
         intent.putExtra(IMC_KEY, result)
         startActivity(intent)
     }

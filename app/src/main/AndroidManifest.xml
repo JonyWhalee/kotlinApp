@@ -13,10 +13,15 @@
         android:theme="@style/Theme.FirstApp"
         tools:targetApi="31">
         <activity
-            android:name=".contendorDeApps.resultIMC"
+            android:name=".contendorDeApps.habitsApp.HabitsApp"
+            android:theme="@style/Base.Theme.HabitsApp"
+            android:exported="false" />
+
+        <activity
+            android:name=".contendorDeApps.IMCapp.ResultIMC"
             android:exported="false" />
         <activity
-            android:name=".contendorDeApps.IMCApp"
+            android:name=".contendorDeApps.IMCapp.IMCApp"
             android:exported="false" />
         <activity
             android:name=".contendorDeApps.Par_Impar_Checker"
